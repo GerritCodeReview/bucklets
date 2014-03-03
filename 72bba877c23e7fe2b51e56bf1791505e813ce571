@@ -70,6 +70,24 @@
     },
     {
       "key": {
+        "uuid": "4f3169d0_a7a02a43",
+        "filename": "java_sources.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-03-03T16:06:25Z",
+      "side": 1,
+      "message": "Yes, but not only. it is also needed to deploy/install artifacts to local and remote Maven repositories.",
+      "parentUuid": "bc8305c4_a23ffec4",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc48b97a_83977e77",
         "filename": "local_jar.bucklet",
         "patchSetId": 1
@@ -104,6 +122,24 @@
     },
     {
       "key": {
+        "uuid": "2f26f59c_a63bc64e",
+        "filename": "local_jar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-03-03T16:06:25Z",
+      "side": 1,
+      "message": "Yes, it is wrong here (and in Gerrit core too).",
+      "parentUuid": "dc48b97a_636482f8",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bc8305c4_c23c82d2",
         "filename": "maven_package.bucklet",
         "patchSetId": 1
@@ -115,6 +151,24 @@
       "writtenOn": "2014-03-03T15:20:44Z",
       "side": 1,
       "message": "What\u0027s the criterion for determining whether we need the AOSP header? java_sources.bucklet might be \"trivial enough\" but maven_jar.bucklet is basically as complex as this file.",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4f3169d0_c7a51e52",
+        "filename": "maven_package.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-03-03T16:06:25Z",
+      "side": 1,
+      "message": "I am a friend of being consequent: either add or remove it everywhere?",
+      "parentUuid": "bc8305c4_c23c82d2",
       "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
