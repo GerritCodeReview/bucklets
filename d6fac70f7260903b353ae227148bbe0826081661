@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc48b97a_a3715ab1",
+        "filename": "tools/mvn.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T18:19:44Z",
+      "side": 1,
+      "message": "Another TODO beyond this change would be to make this configurable so I can move the fake_pom_*.xml out of the root of gitiles.",
+      "revId": "d6fac70f7260903b353ae227148bbe0826081661",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
