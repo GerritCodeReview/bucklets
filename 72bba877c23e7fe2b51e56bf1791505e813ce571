@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc8305c4_e2450665",
+        "filename": "java7.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "One-line documentation in addition to the pull request link?",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc8305c4_02434a60",
+        "filename": "java8.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "One-line documentation in addition to the pull request link?",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc48b97a_436986ce",
+        "filename": "java_doc.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "One-line doc?",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc8305c4_a23ffec4",
+        "filename": "java_sources.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "One-line doc? Perhaps plus some context, e.g. is this primarily required for GWT?",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc48b97a_83977e77",
+        "filename": "local_jar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "I agree that this workflow is annoying from time to time (particularly if you have to keep checking the SHA-1) but I do kind of like the fact that it doesn\u0027t depend on the state in your other project. I suppose if we still support using the local maven repo then callers can take their pick, that would be fine.",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc48b97a_636482f8",
+        "filename": "local_jar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "Maybe srcjar? I was a bit confused for a second because \"src\" to me says \"*.java\", which of course doesn\u0027t make sense for a prebuilt jar rule.",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc8305c4_c23c82d2",
+        "filename": "maven_package.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "What\u0027s the criterion for determining whether we need the AOSP header? java_sources.bucklet might be \"trivial enough\" but maven_jar.bucklet is basically as complex as this file.",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc48b97a_235e8a2a",
+        "filename": "tools/BUCK",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "Nit: rename this to env_path or something. Python has a commonly used module called \"os.path\" that is something else entirely.",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc48b97a_03638eee",
+        "filename": "war.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-03-03T15:20:44Z",
+      "side": 1,
+      "message": "One-line doc?",
+      "revId": "72bba877c23e7fe2b51e56bf1791505e813ce571",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
