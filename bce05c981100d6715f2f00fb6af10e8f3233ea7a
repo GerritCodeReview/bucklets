@@ -34,6 +34,24 @@
       "revId": "bce05c981100d6715f2f00fb6af10e8f3233ea7a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fca01d5c_3c3a31e1",
+        "filename": "java7.bucklet",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2014-03-04T18:11:41Z",
+      "side": 1,
+      "message": "Many are non-trivial in length. We should probably make the license explicit on the files.",
+      "parentUuid": "9cbf218c_49d98199",
+      "revId": "bce05c981100d6715f2f00fb6af10e8f3233ea7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
