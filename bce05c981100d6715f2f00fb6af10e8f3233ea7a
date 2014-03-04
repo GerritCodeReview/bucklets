@@ -52,6 +52,24 @@
       "revId": "bce05c981100d6715f2f00fb6af10e8f3233ea7a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7cb42db0_e810736a",
+        "filename": "java7.bucklet",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-03-04T18:59:20Z",
+      "side": 1,
+      "message": "Done in [1].\n\n [1] https://gerrit-review.googlesource.com/#/c/54982",
+      "parentUuid": "fca01d5c_3c3a31e1",
+      "revId": "bce05c981100d6715f2f00fb6af10e8f3233ea7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
