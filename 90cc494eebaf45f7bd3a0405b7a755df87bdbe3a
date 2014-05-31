@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bffbfccc_240a9240",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-05-31T21:28:30Z",
+      "side": 1,
+      "message": "This doesn\u0027t need to be a strict requirement, you could allow them to be passed in and use these as the defaults.",
+      "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bffbfccc_04079636",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-05-31T21:28:30Z",
+      "side": 1,
+      "message": "I strongly prefer joining command lists with \u0026\u0026",
+      "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
