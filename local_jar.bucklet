@@ -39,18 +39,17 @@ def local_jar(
   binjar = name + '.jar'
   srcjar = name + '-src.jar'
   genrule(
-    name = name + '__local_bin',
+    name = '%s__local_bin' % name,
     cmd = 'ln -s %s $OUT' % jar,
     out = binjar)
   if src_jar:
     genrule(
-      name = name + '__local_src',
+      name = '%s__local_src' % name,
       cmd = 'ln -s %s $OUT' % src_jar,
       out = srcjar)
     prebuilt_jar(
-      name = name + '_src',
-      deps = [':' + name + '__local_src'],
-      binary_jar = genfile(srcjar),
+      name = '%s_src' % name,
+      binary_jar = ':%s__local_src' % name,
       visibility = visibility,
     )
   else:
@@ -58,8 +57,8 @@ def local_jar(
 
   prebuilt_jar(
     name = name,
-    deps = deps + [':' + name + '__local_bin'],
-    binary_jar = genfile(binjar),
-    source_jar = genfile(srcjar) if srcjar else None,
+    deps = deps,
+    binary_jar = ':%s__local_bin' % name,
+    source_jar = ':%s__local_src' % name if srcjar else None,
     visibility = visibility,
   )
