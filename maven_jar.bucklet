@@ -98,7 +98,7 @@ def maven_jar(
     cmd.append('--unsign')
 
   genrule(
-    name = name + '__download_bin',
+    name = '%s__download_bin' % name,
     cmd = ' '.join(cmd),
     deps = ['//bucklets/tools:download_file'],
     out = binjar,
@@ -109,43 +109,41 @@ def maven_jar(
     if src_sha1:
       cmd.extend(['-v', src_sha1])
     genrule(
-      name = name + '__download_src',
+      name = '%s__download_src' % name,
       cmd = ' '.join(cmd),
       deps = ['//bucklets/tools:download_file'],
       out = srcjar,
     )
     prebuilt_jar(
-      name = name + '_src',
-      binary_jar = genfile(srcjar),
-      deps = [':' + name + '__download_src'],
+      name = '%s_src' % name,
+      binary_jar = ':%s__download_src' % name,
       visibility = visibility,
     )
   else:
     srcjar = None
     genrule(
-      name = name + '__download_src',
+      name = '%s__download_src' % name,
       cmd = ':>$OUT',
-      out = '__' + name + '__no_src',
+      out = '__%s__no_src' % name,
     )
 
-  srcdep = [':' + name + '__download_src'] if srcjar else []
   if exported_deps:
     prebuilt_jar(
-      name = name + '__jar',
-      deps = deps + srcdep + [':' + name + '__download_bin'],
-      binary_jar = genfile(binjar),
-      source_jar = genfile(srcjar) if srcjar else None,
+      name = '%s__jar' % name,
+      deps = deps,
+      binary_jar = ':%s__download_bin' % name,
+      source_jar = ':%s__download_src' % name if srcjar else None,
     )
     java_library(
       name = name,
-      exported_deps = exported_deps + [':' + name + '__jar'],
+      exported_deps = exported_deps + [':%s__jar' % name],
       visibility = visibility,
     )
   else:
     prebuilt_jar(
       name = name,
-      deps = deps + srcdep + [':' + name + '__download_bin'],
-      binary_jar = genfile(binjar),
-      source_jar = genfile(srcjar) if srcjar else None,
+      deps = deps,
+      binary_jar = ':%s__download_bin' % name,
+      source_jar = ':%s__download_src' % name if srcjar else None,
       visibility = visibility,
     )
