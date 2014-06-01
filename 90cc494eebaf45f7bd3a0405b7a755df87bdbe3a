@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ff8f8d3_c375f6a5",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-06-01T05:05:26Z",
+      "side": 1,
+      "message": "In fact this bucklet could be used from both:\n\n* standalone plugin build\n* in Gerrit tree build, by linking the plugin to $gerrit_tree/plugins directory.\n\nWith this change [1] this is alreay possible.\n\nThe tricky part is the //path/to:target to the plugin API and GWT UI dependcies.\n\nWhile in tree build, these pathes is obviously derived from the corresponding project locations:\n\n* gerrit-plugin-api\n* gerrit-plugin-gwtui\n\nstandalone build these pathes don\u0027t exist. And would be made available through maven_jar()/local_jar() rules and that why this change expect them to be defined in $plugin_dir/lib/gerrit/BUCK file as:\n\n* //lib/gerrit:plugin-api\n* //lib/gerrit:plugin-gwtui\n\nI am more than happy to hear a solution to this problem: how to make `gerrit_plugin()` work from both worlds: in tree \u0026 standalone and providing the dependencies to `gerrit-plugin-foo` once for both worlds.\n\nOne obvious approach would be: to expose gerrit-plugin-api \u0026 gerrit-plugin-gwtui in plugin directory structure, or link gerrit-plugin-foo in gerrit tree to //lib/gerrit:plugin-foo.\n\nBut, do we really want to do that?\n\n[1] https://gerrit-review.googlesource.com/#/c/57630",
+      "parentUuid": "bffbfccc_240a9240",
+      "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bffbfccc_04079636",
         "filename": "gerrit_plugin.bucklet",
         "patchSetId": 2
