@@ -16,6 +16,24 @@
       "revId": "821e8bd25f690002fc065becacbf475f222129a5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ff8f8d3_837ffe83",
+        "filename": "local_jar.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-06-01T05:07:23Z",
+      "side": 1,
+      "message": "True. I failed to differentiate between refactoring and genfile() replacement.",
+      "parentUuid": "5f38405c_6110966e",
+      "revId": "821e8bd25f690002fc065becacbf475f222129a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
