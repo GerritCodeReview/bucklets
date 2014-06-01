@@ -51,6 +51,24 @@
       "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ff8f8d3_e357d200",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-06-01T18:14:09Z",
+      "side": 1,
+      "message": "Done:\n\n  $ buck targets --json :cookbook-plugin__manifest\n  [...]\n  \"cmd\" : \"v\u003d$(git describe HEAD) \u0026\u0026\n          echo \\\"Manifest-Version: 1.0\\\" \u003e$OUT \u0026\u0026\n          echo \\\"Gerrit-ApiType: plugin\\\" \u003e\u003e$OUT \u0026\u0026\n          echo \\\"Implementation-Version: $v\\\" \u003e\u003e$OUT \u0026\u0026\n          echo \\\"Implementation-Vendor: Gerrit Code Review\\\" \u003e\u003e$OUT \u0026\u0026\n          echo \\\"Gerrit-PluginName: cookbook\\\" \u003e\u003e $OUT \u0026\u0026\n  [...]",
+      "parentUuid": "bffbfccc_04079636",
+      "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
