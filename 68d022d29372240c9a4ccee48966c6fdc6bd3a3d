@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bffbfccc_44822e41",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-06-03T18:59:58Z",
+      "side": 1,
+      "message": "Doesn\u0027t need to be done in this change but I\u0027m thinking we should document somewhere in the bucklets tree what the buck version should be.\n\nPossibly even have a version file and recommend that users run \"ln -s bucklets/buckversion .buckversion\" in their containing repo.",
+      "revId": "68d022d29372240c9a4ccee48966c6fdc6bd3a3d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
