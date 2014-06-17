@@ -69,6 +69,24 @@
       "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f3760c3_e93595fb",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-06-17T11:54:44Z",
+      "side": 1,
+      "message": "`git describe` will fail if the git does not have a tag.\n\nUse `git describe --always` to make it fall back to abbreviated sha1 of the commit at HEAD.",
+      "parentUuid": "9ff8f8d3_e357d200",
+      "revId": "90cc494eebaf45f7bd3a0405b7a755df87bdbe3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
