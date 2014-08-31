@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "733705c4_c9da9185",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-08-31T13:23:49Z",
+      "side": 1,
+      "message": "Is it possible to add support for linking to GH issues on gerrit-review, e.g.:\n\n  GH-Bug: davido/bucklets/issues/3\n\nor some such?",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 47
+      },
+      "revId": "d89c98fd7b02fe624825368552e98324e266bb37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
