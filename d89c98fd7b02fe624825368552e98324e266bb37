@@ -22,6 +22,40 @@
       "revId": "d89c98fd7b02fe624825368552e98324e266bb37",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "733705c4_09e5893f",
+        "filename": "maven_jar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1013167
+      },
+      "writtenOn": "2014-08-31T18:36:04Z",
+      "side": 1,
+      "message": "Drop these variables.",
+      "revId": "d89c98fd7b02fe624825368552e98324e266bb37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "733705c4_49ef811f",
+        "filename": "maven_jar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1013167
+      },
+      "writtenOn": "2014-08-31T18:36:04Z",
+      "side": 1,
+      "message": "Looks like you are reversing the logic.",
+      "revId": "d89c98fd7b02fe624825368552e98324e266bb37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
