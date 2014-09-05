@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "50b4b7af_c8e32f3c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-09-05T05:37:05Z",
+      "side": 1,
+      "message": "Never mind.",
+      "parentUuid": "70bffb8c_89ed3928",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "9b12e01befe17f7439318c8881b39c6535b6b73a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "70bffb8c_a9ea7d0b",
         "filename": "setup.sh",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2014-09-05T05:35:51Z",
       "side": 1,
       "message": "Why not add the `.` prefixes here?",
+      "range": {
+        "startLine": 4,
+        "startChar": 12,
+        "endLine": 4,
+        "endChar": 38
+      },
+      "revId": "9b12e01befe17f7439318c8881b39c6535b6b73a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50b4b7af_28df6b75",
+        "filename": "setup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-09-05T05:37:05Z",
+      "side": 1,
+      "message": "Never mind, I get it now.",
+      "parentUuid": "70bffb8c_49f981e4",
       "range": {
         "startLine": 4,
         "startChar": 12,
