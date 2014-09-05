@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70bffb8c_295c4d26",
+        "filename": "setup.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2014-09-05T18:37:43Z",
+      "side": 1,
+      "message": "This assumes that bucklets is a subdirectory of the root of the (buck) project, and that we are currently in that directory.\n\nWould it make sense to have a `cd $(dirname $0)/..` at the top?",
+      "revId": "ba27f2820aefc15d4f8563cf14b15bec471669da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
