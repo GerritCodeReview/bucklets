@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "b0cb333c_4b22e5c6",
+        "filename": "setup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2014-09-05T11:03:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70bffb8c_a9ea7d0b",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 6
+      },
+      "revId": "9b12e01befe17f7439318c8881b39c6535b6b73a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "70bffb8c_49f981e4",
         "filename": "setup.sh",
         "patchSetId": 1
