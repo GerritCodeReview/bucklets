@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6ba1dc_9702442e",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2014-11-24T08:37:28Z",
+      "side": 1,
+      "message": "[optional] make it all uppercase like the other variables above?",
+      "revId": "c2c2858cdd72cfa0381056dcdc0f0e71c31347db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
