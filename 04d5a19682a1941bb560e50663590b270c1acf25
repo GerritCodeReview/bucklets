@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99c2f455_14def451",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-06-05T01:50:29Z",
+      "side": 1,
+      "message": "2015",
+      "range": {
+        "startLine": 1,
+        "startChar": 16,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "99c2f455_54d86c62",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-06-05T01:50:29Z",
+      "side": 1,
+      "message": "Is this example valid?",
+      "range": {
+        "startLine": 37,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 37
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "99c2f455_34e3f01a",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-06-05T01:50:29Z",
+      "side": 1,
+      "message": "I guess these are not needed.",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 26
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
