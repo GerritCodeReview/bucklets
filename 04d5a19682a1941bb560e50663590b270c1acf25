@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "59e6bc29_3248907c",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-06-08T20:19:03Z",
+      "side": 1,
+      "message": "I guess yes? See: [1].\n\n* [1] http://buckbuild.com/rule/android_prebuilt_aar.html",
+      "parentUuid": "99c2f455_54d86c62",
+      "range": {
+        "startLine": 37,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 37
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "99c2f455_34e3f01a",
         "filename": "maven_aar.bucklet",
         "patchSetId": 1
@@ -64,6 +88,76 @@
         "startChar": 0,
         "endLine": 44,
         "endChar": 26
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e908fb_f187a818",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-06-08T20:19:03Z",
+      "side": 1,
+      "message": "They are used in tools/util.py.",
+      "parentUuid": "99c2f455_34e3f01a",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 26
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e908fb_119c6c70",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-06-08T20:19:03Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be needed. Yes maven_jar() has it too, and it should be removed there as well.",
+      "range": {
+        "startLine": 104,
+        "startChar": 4,
+        "endLine": 104,
+        "endChar": 46
+      },
+      "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e908fb_d18ca43f",
+        "filename": "maven_aar.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-06-08T20:19:03Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be android_library?",
+      "range": {
+        "startLine": 119,
+        "startChar": 4,
+        "endLine": 119,
+        "endChar": 16
       },
       "revId": "04d5a19682a1941bb560e50663590b270c1acf25",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
