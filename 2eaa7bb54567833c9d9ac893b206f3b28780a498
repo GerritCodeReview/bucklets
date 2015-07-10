@@ -22,6 +22,30 @@
       "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8f6d649_5d65db96",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-07-10T14:30:11Z",
+      "side": 1,
+      "message": "If I build the plugin, I know that plugin.jar will be at the root of buck-out folder. This artifact is the result of the build, not an intermediate artifact.\n\nI am trying (maybe not the right way) to do the same thing but for the plugin-sources.jar. My goal is to produce the plugin-sources.jar next to plugin.jar so I can get them both without knowing the location of the intermediate artifact.\n\nBefore this change, if I use java-sources in my plugin BUCK file, the result is an intermediate artifact located in lib__\u003cjava_sources_name\u003e__output folder. With this change, the result is a build artifact at the root of buck-out folder.\n\nAre you suggesting to keep the java_sources bucklet as is(without this change) and add another one(gerrit_plugin_sources?) to produce a source jar that is a build artifact?",
+      "parentUuid": "f83ccef3_5fc34b7e",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 23
+      },
+      "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
