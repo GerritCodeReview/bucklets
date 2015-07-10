@@ -70,6 +70,30 @@
       "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8f6d649_1d6f5377",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-07-10T14:51:15Z",
+      "side": 1,
+      "message": "\u003e OK, I see. But what is your use case? What do you need plugin-sources.jar for?\n\nI am trying to update our CI server (Jenkins) to work with Buck so I can drop maven support. I need the source jar to deploy with the plugin jar in Artifactory. I cannot use maven_package to deploy directly into Artifactory, I need to tell the Jenkins Artifactory plugin where are the jars(including sources) to deploy. \n\nI will look at gitiles project, thanks for the info!",
+      "parentUuid": "f83ccef3_dfce3ba1",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 23
+      },
+      "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
