@@ -46,6 +46,30 @@
       "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f83ccef3_dfce3ba1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-07-10T14:37:52Z",
+      "side": 1,
+      "message": "OK, I see. But what is your use case? What do you need plugin-sources.jar for? You need plugin.jar to deploy to gerrit. Would you like to deploy it to Maven Central? You may want to take a look at gitiles project, where I added the support to deploy JAR|SRC|DOC combination to Maven Central, without (!) knowing the location of the intermediate artifacts. Basically buck $(location :target) macro can be used to retrieve the location of intermediate artifacts from Buck.",
+      "parentUuid": "b8f6d649_5d65db96",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 23
+      },
+      "revId": "2eaa7bb54567833c9d9ac893b206f3b28780a498",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
