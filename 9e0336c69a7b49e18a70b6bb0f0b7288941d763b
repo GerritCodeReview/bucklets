@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "edfb2e32_fe982186",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-07-21T18:39:26Z",
+      "side": 1,
+      "message": "I would put it differently. Not the CI tools should support Buck proprietary test report format, but Buck should expose option to generate the junit compatible format. If Buck doesn\u0027t support it for now, it worth to file a bug report on Bucks issue tracker. Could you do it and add bug number to the commit message? That way we could come back once it is there and fix it.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 50
+      },
+      "revId": "9e0336c69a7b49e18a70b6bb0f0b7288941d763b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
