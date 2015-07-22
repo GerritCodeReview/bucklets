@@ -170,6 +170,24 @@
       "revId": "a8f9814ea2f791ebd3e30a760057b95cc1cacc04",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d59fe72_dae48519",
+        "filename": "tools/sonar.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2015-07-22T14:33:37Z",
+      "side": 1,
+      "message": "I don\u0027t see any code style discussion in [1]. Did you mean [2]\n\n[2] https://gerrit-review.googlesource.com/68722",
+      "parentUuid": "0df5e23c_1f8bc329",
+      "revId": "a8f9814ea2f791ebd3e30a760057b95cc1cacc04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
