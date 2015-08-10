@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c7c3ab58_75c00875",
+        "filename": "tools/eclipse.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2015-08-10T15:09:32Z",
+      "side": 1,
+      "message": "Can you elaborate on the problem this solved, and how it solved it?\n\nIn gitiles, this change has broken the generation of source paths. Because this now includes \u0027/\u0027 in the matching group, it now looks like an absolute path (\u0027/gitiles-server\u0027), so all of the path.exists checks below now fail.\n\nI guess the simplest fix is to do m.group(1).lstrip(\u0027/\u0027), but I\u0027d like to understand the problem better.",
+      "revId": "cfad992243b3b68e8cca957cca5caf8e7ee8d7a3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
