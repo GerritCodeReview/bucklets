@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "647cbd57_02bf0af8",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_08c12778",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 5
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04d4e17b_c7bedefa",
         "filename": "tools/gen_sonar_project_properties.py",
         "patchSetId": 4
@@ -53,6 +77,48 @@
       "writtenOn": "2015-08-24T01:38:09Z",
       "side": 1,
       "message": "the name `file` hides the python builtin of the same name.",
+      "range": {
+        "startLine": 44,
+        "startChar": 36,
+        "endLine": 44,
+        "endChar": 40
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84bff131_c329b6be",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_c7bedefa",
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84bff131_a3011a47",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_27ed3a00",
       "range": {
         "startLine": 44,
         "startChar": 36,
@@ -112,6 +178,30 @@
     },
     {
       "key": {
+        "uuid": "647cbd57_e2d22645",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_c8d70f33",
+      "range": {
+        "startLine": 45,
+        "startChar": 14,
+        "endLine": 45,
+        "endChar": 18
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24d1e58c_68e70320",
         "filename": "tools/gen_sonar_project_properties.py",
         "patchSetId": 4
@@ -123,6 +213,30 @@
       "writtenOn": "2015-08-24T01:38:09Z",
       "side": 1,
       "message": "Use re.sub?",
+      "range": {
+        "startLine": 45,
+        "startChar": 31,
+        "endLine": 46,
+        "endChar": 51
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84bff131_03f3cedb",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_68e70320",
       "range": {
         "startLine": 45,
         "startChar": 31,
@@ -158,6 +272,30 @@
     },
     {
       "key": {
+        "uuid": "647cbd57_22f6cecb",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "I called this script from sonar.py and that one must be executed in the plugin directory so it is working but you are right, this could end up executing in the wrong directory.\n\nDone, I added cwd arg to force working directory.",
+      "parentUuid": "04d4e17b_27c41a88",
+      "range": {
+        "startLine": 51,
+        "startChar": 14,
+        "endLine": 51,
+        "endChar": 67
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04d4e17b_07c11678",
         "filename": "tools/gen_sonar_project_properties.py",
         "patchSetId": 4
@@ -175,6 +313,24 @@
     },
     {
       "key": {
+        "uuid": "84bff131_231fea93",
+        "filename": "tools/gen_sonar_project_properties.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_07c11678",
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04d4e17b_87dd0657",
         "filename": "tools/sonar.py",
         "patchSetId": 4
@@ -186,6 +342,30 @@
       "writtenOn": "2015-08-24T01:38:09Z",
       "side": 1,
       "message": "uploads",
+      "range": {
+        "startLine": 17,
+        "startChar": 64,
+        "endLine": 17,
+        "endChar": 70
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "647cbd57_6200d63b",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_87dd0657",
       "range": {
         "startLine": 17,
         "startChar": 64,
@@ -221,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "84bff131_031c6e9b",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_e7d20245",
+      "range": {
+        "startLine": 22,
+        "startChar": 33,
+        "endLine": 22,
+        "endChar": 34
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04d4e17b_c7d7fe32",
         "filename": "tools/sonar.py",
         "patchSetId": 4
@@ -244,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "647cbd57_82fddaa4",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04d4e17b_c7d7fe32",
+      "range": {
+        "startLine": 28,
+        "startChar": 13,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24d1e58c_a8d8db66",
         "filename": "tools/sonar.py",
         "patchSetId": 4
@@ -255,6 +483,24 @@
       "writtenOn": "2015-08-24T01:38:09Z",
       "side": 1,
       "message": "nit: move local imports after the standard imports, separated by a blank line",
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84bff131_6319e2ab",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_a8d8db66",
       "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -318,6 +564,48 @@
     },
     {
       "key": {
+        "uuid": "647cbd57_022aaab1",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "I can do that but what do I return, None?\n\nIf there is an error while reading the plugin name from the buck file, the script must terminate, there is no reason to continue executing. If I handle the exceptions, what is the proper way to exit the script?",
+      "parentUuid": "24d1e58c_e8d2d344",
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "647cbd57_a22adeb2",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_28ed0b00",
+      "range": {
+        "startLine": 41,
+        "startChar": 32,
+        "endLine": 41,
+        "endChar": 36
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24d1e58c_08eac7e7",
         "filename": "tools/sonar.py",
         "patchSetId": 4
@@ -329,6 +617,30 @@
       "writtenOn": "2015-08-24T01:38:09Z",
       "side": 1,
       "message": "This might be shorter with `re.sub` for example like in this stackoverflow answer:\n\nhttp://stackoverflow.com/a/1007615/381622",
+      "range": {
+        "startLine": 42,
+        "startChar": 24,
+        "endLine": 43,
+        "endChar": 30
+      },
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "647cbd57_c22fe2c1",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2015-08-24T17:41:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d1e58c_08eac7e7",
       "range": {
         "startLine": 42,
         "startChar": 24,
