@@ -606,6 +606,24 @@
     },
     {
       "key": {
+        "uuid": "04d4e17b_a73c8aee",
+        "filename": "tools/sonar.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-08-25T00:31:32Z",
+      "side": 1,
+      "message": "If an exception is caught, use the `exit` method to exit with an error code and a useful message.  Otherwise the script will still terminate, but either with an ugly backtrace log or with a message generated from an `except` block further up the call stack.",
+      "parentUuid": "647cbd57_022aaab1",
+      "revId": "c6d1d1af3ad6d8ceb5b85ce93f6b251a48113093",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24d1e58c_08eac7e7",
         "filename": "tools/sonar.py",
         "patchSetId": 4
