@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8430d27f_56c3d472",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-09-09T06:19:45Z",
+      "side": 1,
+      "message": "This is only partly a problem of this change: but this code would have issue with Buck cache. After switching to different commit, the mf_cmd wouldn\u0027t change, because it\u0027s just a string and independent from the commit, this part of the string would be still: \"v\u003d\\$(git describe --always HEAD)\", consequently, the command in genrule on line 98 will not be evaluated and new MANTIFEST file wouldn\u0027t be created, so we would end up with stale plugin version. Before this change all plugins that uses VERSION file would notice that, as the version is always stable. After this change, the right version will only be retrieved once and never again, unless the Buck cache is wiped out. Gerrit core fixed it with method invocation, that always try to retrieve the commit.",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
