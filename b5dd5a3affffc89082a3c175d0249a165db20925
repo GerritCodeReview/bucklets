@@ -46,6 +46,30 @@
       "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8430d27f_16cd5c9c",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2015-09-09T06:43:49Z",
+      "side": 1,
+      "message": "Would it make sense to use a similar approach as in gerrit?\n\n(copy paste untested)\n---8\u003c-------\ncmd \u003d [\u0027git\u0027, \u0027describe\u0027, \u0027--always\u0027, \u0027--match\u0027, \u0027v[0-9].*\u0027, \u0027--dirty\u0027 ,\u0027HEAD\u0027]\np \u003d subprocess.Popen(cmd, stdout \u003d subprocess.PIPE)\nmf_cmd \u003d \u0027v\u003d\\%s;\u0027 % p.communicate()[0].strip()\n---\u003e8-------",
+      "parentUuid": "a4f236e4_4f15ad75",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
