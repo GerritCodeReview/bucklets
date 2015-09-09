@@ -94,6 +94,30 @@
       "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8430d27f_f601c045",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2015-09-09T13:46:33Z",
+      "side": 1,
+      "message": "| Note that the in-tree build also needs fixing. Currently the plugin version is set to the git describe value of the core gerrit checkout in which it\u0027s built.  I.e. *not* the git describe of the plugin itself.\n\nHasn\u0027t this been fixed in context of this change: [1]?\n\n* [1] https://gerrit-review.googlesource.com/#/c/70074/3/tools/default.defs@138",
+      "parentUuid": "c4bacaed_9859b578",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
