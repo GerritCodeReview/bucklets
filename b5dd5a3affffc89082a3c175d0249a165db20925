@@ -22,6 +22,30 @@
       "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4f236e4_4f15ad75",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-09-09T06:27:43Z",
+      "side": 1,
+      "message": "Yes, this is only a partial fix to the larger problem that plugin builds are messed up.\n\nA number of times I\u0027ve made changes, rebuilt, but then found that the generated jar file doesn\u0027t include the changes.",
+      "parentUuid": "8430d27f_56c3d472",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
