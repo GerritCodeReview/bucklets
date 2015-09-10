@@ -142,6 +142,30 @@
       "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4bacaed_38b3c9d0",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-09-10T10:00:15Z",
+      "side": 1,
+      "message": "OK.  I haven\u0027t tested it on master for a while, so I probably missed it.",
+      "parentUuid": "a4195610_b7590878",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
