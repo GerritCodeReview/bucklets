@@ -118,6 +118,30 @@
       "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4195610_b7590878",
+        "filename": "gerrit_plugin.bucklet",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2015-09-10T09:57:42Z",
+      "side": 1,
+      "message": "That was my impression also.",
+      "parentUuid": "8430d27f_f601c045",
+      "range": {
+        "startLine": 88,
+        "startChar": 13,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "b5dd5a3affffc89082a3c175d0249a165db20925",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
