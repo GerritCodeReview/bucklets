@@ -79,7 +79,10 @@ for spec in args.s:
     print("%s command failed: `%s`: %s" % (args.a, cmds_str, e), file=stderr)
     exit(1)
 
-with open(args.o, 'w') as fd:
+out = sys.stdout
+if args.o:
+  out = open(args.o, 'w')
+with out as fd:
   if args.repository:
     print('Repository: %s' % args.repository, file=fd)
   if args.url:

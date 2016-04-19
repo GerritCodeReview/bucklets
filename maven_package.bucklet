@@ -26,6 +26,15 @@
 #   doc = {'gitiles-servlet': '//gitiles-servlet:javadoc'},
 # )
 #
+
+sh_bang_template = ('&&'.join([
+  "echo '#!/bin/sh' > $OUT",
+  'echo "# this script should run from the root of your workspace." >> $OUT',
+  'echo "" >> $OUT',
+  'echo %s >> $OUT',
+  'echo %s >> $OUT',
+  'chmod 0755 $OUT' ]))
+
 def maven_package(
     version,
     repository = None,
@@ -34,29 +43,34 @@ def maven_package(
     jar = {},
     src = {},
     doc = {}):
+
+  build_cmd = [ 'buck', 'build' ]
+
   cmd = [
     '$(exe //bucklets/tools:mvn)',
     '-g', group,
     '-v', version,
-    '-o', '$OUT',
   ]
 
   for type,d in [('jar', jar), ('java-source', src), ('javadoc', doc)]:
     for a,t in d.iteritems():
       cmd.append('-s %s:%s:$(location %s)' % (a,type,t))
+      build_cmd.append(t)
 
   genrule(
-    name = 'install',
-    cmd = ' '.join(cmd + ['-a', 'install']),
-    out = 'install.info',
+    name = 'gen_install',
+    cmd = sh_bang_template % (' '.join(build_cmd), (' '.join(cmd + ['-a', 'install']))),
+    out = 'install.sh',
   )
 
   if repository and url:
-    genrule(
-      name = 'deploy',
-      cmd = ' '.join(cmd + [
+    cmd_str = sh_bang_template % (' '.join(build_cmd), ' '.join(cmd + [
         '-a', 'deploy',
         '--repository', repository,
-        '--url', url]),
-      out = 'deploy.info',
+        '--url', url]))
+
+    genrule(
+      name = 'gen_deploy',
+      cmd = cmd_str,
+      out = 'deploy.sh',
     )
