@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2bec8e3b_48895324",
+        "filename": "tools/eclipse.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-09-20T12:50:36Z",
+      "side": 1,
+      "message": "Shorter:\n\n if args.exclude:\n   for x in args.exclude:\n     if x in lib:\n       return True\n return False",
+      "range": {
+        "startLine": 143,
+        "startChar": 2,
+        "endLine": 148,
+        "endChar": 14
+      },
+      "revId": "85643a66dd21fef2a9ace5ee9d1b3aecf10037c7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
