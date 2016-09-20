@@ -22,6 +22,30 @@
       "revId": "85643a66dd21fef2a9ace5ee9d1b3aecf10037c7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2bec8e3b_88aa3b72",
+        "filename": "tools/eclipse.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2016-09-20T12:59:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bec8e3b_48895324",
+      "range": {
+        "startLine": 143,
+        "startChar": 2,
+        "endLine": 148,
+        "endChar": 14
+      },
+      "revId": "85643a66dd21fef2a9ace5ee9d1b3aecf10037c7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
