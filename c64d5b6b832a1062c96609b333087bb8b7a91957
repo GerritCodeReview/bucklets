@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd1a7818_4d11a42a",
+        "filename": "rules.pl",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2022-01-11T14:23:56Z",
+      "side": 0,
+      "message": "Note that the CR and V requirements are enforced from \u0027All-Projects\u0027 \n\nhttps://gerrit.googlesource.com/All-Projects/+/cc9d2a0eb8885d4c825ff254df26416f1384758a/project.config#166",
+      "revId": "c64d5b6b832a1062c96609b333087bb8b7a91957",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
