@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "032ad357_fdc7f253",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2022-01-11T14:17:49Z",
+      "side": 1,
+      "message": "This project has a rules.pl. \u0027Library-Compliance\u0027 should be adapted such that it\u0027s applicable if:\n\ngerrit:commit_delta(\u0027^buckversion$\u0027),\n\nwill add a follow up and remove rules.pl.",
+      "revId": "c64d5b6b832a1062c96609b333087bb8b7a91957",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
