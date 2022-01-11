@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1220b40_2d1d1cab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-01-11T14:37:16Z",
+      "side": 1,
+      "message": "[optional] Since this repo is obsolete (it was used ~5 years ago when Gerrit was built with BUCK), maybe it\u0027s easier to:\n\n1. drop the rules.pl file\n2. drop the Library-Compliance label\n3. set the project to Read-Only state",
+      "revId": "81abc70dcff9882c4d19637e788aa52065606948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
