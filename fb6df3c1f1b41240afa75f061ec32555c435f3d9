@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba6c0c85_3827cc80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1154297
+      },
+      "writtenOn": "2022-12-11T00:09:43Z",
+      "side": 1,
+      "message": "Str Frasinetului 36a, 36a, TURDA, Cluj, 401017, RO",
+      "revId": "fb6df3c1f1b41240afa75f061ec32555c435f3d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
